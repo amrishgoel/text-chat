@@ -1,0 +1,55 @@
+nav {
+            background-color: #21B6A8;
+}
+        
+#status {
+            margin-left: 20px;
+            position: relative;
+            top: 20px;
+}
+        
+.brand-logo {
+            line-height: 50px;
+}
+
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+
+.my-card:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #546e7a transparent transparent transparent;
+}
+
+.my-card{
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.my-card .card-action{
+	border-top : 0px;
+}
+
+#botText{
+	position: absolute;
+	bottom : 0;
+	right : 0;
+}
+
+.chat-box{
+    position: relative;
+	bottom : 0;
+}
