@@ -13,6 +13,10 @@ nav {
 }
 
 
+.chat-box{
+	position: fixed;
+	bottom: 0;
+}
 .talk-bubble {
 	margin: 40px;
   display: inline-block;
@@ -21,18 +25,17 @@ nav {
 	height: auto;
 	background-color: lightyellow;
 }
-
-.my-card:after{
+ .my-card:after{
 	content: ' ';
 	position: absolute;
 	width: 0;
 	height: 0;
-    left: -20px;
-	right: auto;
-    top: 0px;
-	bottom: auto;
-	border: 22px solid;
-	border-color: #546e7a transparent transparent transparent;
+  	left: auto;
+	right: -20px;
+	bottom: 0px;
+	border: 12px solid;
+	border-color: transparent transparent #81d4fa #81d4fa;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0;
 }
 
 .my-card{
@@ -43,13 +46,18 @@ nav {
 	border-top : 0px;
 }
 
-#botText{
+.botText{
 	position: absolute;
 	bottom : 0;
 	right : 0;
 }
 
-.chat-box{
-    position: relative;
-	bottom : 0;
+i.small
+{
+	font-size : 1rem;
+	color : #004d40;
+}
+
+a{
+	color : #004d40;
 }
